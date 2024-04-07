@@ -1,0 +1,38 @@
+{
+  "name": "dkit",
+  "version": "1.0.0",
+  "description": "a kit",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiaojianfeng/dkit.git"
+  },
+  "keywords": [
+    "Kit",
+    "React",
+    "tools",
+    "Taro"
+  ],
+  "author": "qiaojianfeng@qq.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/qiaojianfeng/dkit/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/qiaojianfeng/dkit#readme",
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "rollup-plugin-typescript2": "^0.36.0"
+  }
+}
